@@ -1,0 +1,79 @@
+#btnsHeader {
+	margin-top: 10px;
+}
+#btnsHeader > ul > li > a {
+	color: #636b6f;
+	font-size: 20px;
+}
+body {
+	font-family: 'Nunito', sans-serif;
+}
+form {
+	margin: 15px;
+	padding: 25px;
+	border: 2px solid #636b6f;;
+	border-radius: 5px;
+}
+#rightBlock {
+	text-align: center;
+	padding: 15px;
+	border: 2px solid #636b6f;
+}
+#users {
+	border: 1px solid #636b6f;;
+	padding-top: 5px;
+}
+input[type=text] {
+  padding: 8px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+textarea {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+	border: 1.5px solid #636b6f !important;
+	margin-top: 10px;
+}
+textarea:focus { 
+    outline: none !important;
+    border-color: #636b6f !important;
+    box-shadow: 0 0 10px #636b6f !important;
+}
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+p {
+	font-size: 18px;
+}
+a {
+	color: #000;
+	text-decoration: none !important;
+}
+#linkDiv {
+	text-align: center;
+	border: 2px solid #636b6f;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 5px;
+}
+#linkDiv p {
+	font-size: 18px;
+	padding-top: 10px;
+}
+#mainBtnLink a{
+  color: white;
+  text-decoration: none; 
+}
+#btnLinkPage a {
+  color: white;
+  text-decoration: none; 
+}
+#viewLeftBlock a{
+  color: white;
+  text-decoration: none; 
+}
+
+.error{
+	color: red;
+}
